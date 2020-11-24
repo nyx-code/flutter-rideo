@@ -6,6 +6,7 @@ const Color primaryColor = Color(0xFF32A663);
 const Color secondaryColor = Color(0xFFE8F6E8);
 const Color darkGreenColor = Color(0xFF0F532C);
 const Color white = Color(0xFFFFFFFF);
+const Color lightWhite = Color(0xFFF8F8F8);
 const Color lightGrey = Color(0xFFF1F1F1);
 const Color darkGrey = Color(0xFF707070);
 const Color black = Color(0xFF242424);
@@ -33,3 +34,4 @@ const double overline = 10.0;
 
 String map = "assets/images/map.svg";
 String icon = "assets/images/icon.svg";
+String flag = "assets/images/flag.svg";
