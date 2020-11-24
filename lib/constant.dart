@@ -30,3 +30,6 @@ const double body2 = 14.0;
 const double button = 14.0;
 const double caption = 12.0;
 const double overline = 10.0;
+
+String map = "assets/images/map.svg";
+String icon = "assets/images/icon.svg";

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rideo/screens/SplashScreen.dart';
 import 'package:rideo/style/theme.dart';
 
 void main() {
@@ -13,10 +14,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: primaryMaterialColor,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        fontFamily: 'Source Sans Pro',
       ),
-      home: Scaffold(
-        body: Center(child: Text("Hello World")),
-      ),
+      home: SplashScreen(),
     );
   }
 }
