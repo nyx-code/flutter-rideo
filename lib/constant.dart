@@ -10,6 +10,7 @@ const Color lightWhite = Color(0xFFF8F8F8);
 const Color lightGrey = Color(0xFFF1F1F1);
 const Color darkGrey = Color(0xFF707070);
 const Color black = Color(0xFF242424);
+const Color darkSecondaryColor = Color(0xFFDCECDC);
 
 const double paddingS = 8.0;
 const double paddingM = 16.0;
