@@ -13,7 +13,13 @@ class RideHistoryScreen extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            CustomAppBar(title: "Ride History"),
+            CustomAppBar(
+              title: "Ride History",
+              leading: Icon(
+                Icons.arrow_back_ios,
+                color: primaryColor,
+              ),
+            ),
             SizedBox(height: spaceM.h * 3.h),
             Expanded(
               child: SingleChildScrollView(
