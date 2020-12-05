@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:rideo/screens/SplashScreen.dart';
 import 'package:rideo/screens/app/CancelTripScreen.dart';
+import 'package:rideo/screens/app/RateDriverScreen.dart';
 import 'package:rideo/screens/app/RideHistoryScreen.dart';
 import 'package:rideo/screens/auth/LoginScreen.dart';
 import 'package:rideo/style/theme.dart';
@@ -35,7 +36,7 @@ class MainApp extends StatelessWidget {
     print('Width: ${MediaQuery.of(context).size.width}');
     print('Height: ${MediaQuery.of(context).size.height}');
     return Scaffold(
-      body: CancelTripScreen(),
+      body: RateDriverScreen(),
     );
   }
 }
